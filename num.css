@@ -1,12 +1,15 @@
-body,html{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
+
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vmax;
+    height: 100vmin; */
     display: flex;
     justify-content: center;
     background: rgb(78, 52, 85);
+    font-family: 'Open Sans', sans-serif;
 }
 input{
     /* display: inline-block; */
@@ -14,7 +17,7 @@ input{
 }
 section{
     min-width: 20rem;
-    max-height: 200px;
+    min-height: 200px;
     margin-top: 30px;
     background-color: rgb(43, 43, 177);
     color: white;
@@ -23,5 +26,11 @@ section{
 section *{
     position: relative;
     left: 30px;
+    
 }
-
+section h2{
+    letter-spacing: 1px;
+}
+section p{
+    font-size: 18px;
+}

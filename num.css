@@ -1,0 +1,27 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(78, 52, 85);
+}
+input{
+    /* display: inline-block; */
+    width: 80%;
+}
+section{
+    min-width: 20rem;
+    max-height: 200px;
+    margin-top: 30px;
+    background-color: rgb(43, 43, 177);
+    color: white;
+    border-radius: 5px;
+}
+section *{
+    position: relative;
+    left: 30px;
+}
+

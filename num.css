@@ -16,7 +16,7 @@ input{
     width: 80%;
 }
 section{
-    min-width: 20rem;
+    width: 22rem;
     min-height: 200px;
     margin-top: 30px;
     background-color: rgb(43, 43, 177);
@@ -25,12 +25,24 @@ section{
 }
 section *{
     position: relative;
-    left: 30px;
+    left: 10px;
     
 }
-section h2{
+section h2,h4{
     letter-spacing: 1px;
+    text-transform:capitalize;
 }
 section p{
-    font-size: 18px;
+    font-size: 15px;
 }
+.fact{
+    display:none;
+    position: relative; 
+    width: 70%;
+    /* left: 5px; */
+    
+}
+/* .fact-text{
+    width: 60%;
+
+} */
